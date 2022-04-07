@@ -21,7 +21,7 @@ Example Scenes: (New Demos In Progress)
 `conda activate agent`  
 
 ## train 
-`mlagents-learn .\Assets\Config\SelfParking.yaml  --run-id= "test"`  
+`mlagents-learn .\Assets\Config\SelfParking.yaml  --run-id="test"`  
 
 ## resume  
 `mlagents-learn .\Assets\Config\SelfParking.yaml  --run-id="test" --resume`  
