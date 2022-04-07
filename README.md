@@ -15,10 +15,11 @@ Example Scenes: (New Demos In Progress)
 # usage:
 
 ## create new environment
+`git clone  https://github.com/alan303138/UnityMLEssentials` 
+`cd .\path_to\UnityMLEssentials`  
 `conda env create -f /path_to/environment.yml`  
 `conda activate agent`  
-`git clone https://github.com/dilmerv/UnityMLEssentials.git`  
-`cd .\path_to\UnityMLEssentials`  
+
 ## train 
 `mlagents-learn .\Assets\Config\SelfParking.yaml  --run-id= "test"`  
 
